@@ -5,7 +5,7 @@ from typing import List
 REQUIREMENTS_FILE_NAME='requirements.txt'
 HYPHEN_E='-e .'
 
-def get_requirements()->List(str):
+def get_requirements()->List[str]:
     with open(REQUIREMENTS_FILE_NAME) as requirements_file:
         requirements_list=requirements_file.readlines()
     requirements_list=[req.replace("\n","") for req in requirements_list]
