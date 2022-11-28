@@ -13,7 +13,7 @@ if __name__=="__main__":
 
     df.reset_index(drop=True,inplace=True)
 
-    json_record=list(json.loads(df.T.to_json()).values())
+    json_record=list(json.loads(df.T.to_json()).values())     #loads() method can be used to parse a valid JSON string and convert it into a Python Dictionary
     print(json_record[0])
 
     client[DATABASE_NAME][Collection_name].insert_many(json_record)
