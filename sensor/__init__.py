@@ -1,1 +1,3 @@
-#some helper functions reqired for the code will be defined here
+from dotenv import load_dotenv
+print(f"Loading environment variable from .env file")
+load_dotenv()

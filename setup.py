@@ -15,7 +15,7 @@ def get_requirements()->List[str]:
 
 setup(
     name="sensor",
-    version="0.0.1",
+    version="0.0.2",
     author="tuery",
     author_email="tuerydany19@gmail.com",
     packages = find_packages(),     #this function identifies the folders with init.py file and installs them as python package

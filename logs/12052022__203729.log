@@ -1,0 +1,20 @@
+[ 2022-12-05 20:37:30,068 ] 22 root - INFO - Exporting collection data as pandas dataframe
+[ 2022-12-05 20:37:30,068 ] 11 root - INFO - Reading data from database: aps and collection: sensor
+[ 2022-12-05 20:37:33,363 ] 14 root - INFO - Dropping column: _id 
+[ 2022-12-05 20:37:33,579 ] 16 root - INFO - Row and columns in df: (36188, 171)
+[ 2022-12-05 20:37:34,122 ] 26 root - INFO - Create feature store folder if not available
+[ 2022-12-05 20:37:34,122 ] 29 root - INFO - Saving df to feature store dir
+[ 2022-12-05 20:37:36,592 ] 32 root - INFO - split data into train and test data
+[ 2022-12-05 20:37:37,125 ] 35 root - INFO - create dataset directory folder if not available
+[ 2022-12-05 20:37:39,348 ] 46 root - INFO - Data ingestion artifact: DataIngestionArtifact(feature_store_path='/config/workspace/artifact/12052022__20371670252850/artifact/feature_store/sensor.csv', train_file_path='/config/workspace/artifact/12052022__20371670252850/artifact/dataset/train.csv', test_file_path='/config/workspace/artifact/12052022__20371670252850/artifact/dataset/test.csv')
+[ 2022-12-05 20:37:39,727 ] 22 root - INFO - Exporting collection data as pandas dataframe
+[ 2022-12-05 20:37:39,727 ] 11 root - INFO - Reading data from database: aps and collection: sensor
+[ 2022-12-05 20:37:43,028 ] 14 root - INFO - Dropping column: _id 
+[ 2022-12-05 20:37:43,235 ] 16 root - INFO - Row and columns in df: (36188, 171)
+[ 2022-12-05 20:37:43,783 ] 26 root - INFO - Create feature store folder if not available
+[ 2022-12-05 20:37:43,784 ] 29 root - INFO - Saving df to feature store dir
+[ 2022-12-05 20:37:46,388 ] 32 root - INFO - split data into train and test data
+[ 2022-12-05 20:37:47,070 ] 35 root - INFO - create dataset directory folder if not available
+[ 2022-12-05 20:37:49,358 ] 46 root - INFO - Data ingestion artifact: DataIngestionArtifact(feature_store_path='/config/workspace/artifact/12052022__20371670252850/artifact/feature_store/sensor.csv', train_file_path='/config/workspace/artifact/12052022__20371670252850/artifact/dataset/train.csv', test_file_path='/config/workspace/artifact/12052022__20371670252850/artifact/dataset/test.csv')
+[ 2022-12-05 20:37:49,823 ] 15 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Validation <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[ 2022-12-05 20:37:49,824 ] 82 root - INFO - Reading base file

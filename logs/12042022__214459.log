@@ -1,0 +1,9 @@
+[ 2022-12-04 21:44:59,557 ] 22 root - INFO - Exporting collection data as pandas dataframe
+[ 2022-12-04 21:44:59,557 ] 10 root - INFO - Reading data from database: aps and collection: sensor
+[ 2022-12-04 21:45:02,933 ] 13 root - INFO - Dropping column: _id 
+[ 2022-12-04 21:45:03,153 ] 15 root - INFO - Row and columns in df: (36188, 171)
+[ 2022-12-04 21:45:03,674 ] 26 root - INFO - Create feature store folder if not available
+[ 2022-12-04 21:45:03,675 ] 29 root - INFO - Saving df to feature store dir
+[ 2022-12-04 21:45:06,076 ] 32 root - INFO - split data into train and test data
+[ 2022-12-04 21:45:06,575 ] 35 root - INFO - create dataset directory folder if not available
+[ 2022-12-04 21:45:08,709 ] 46 root - INFO - Data ingestion artifact: DataIngestionArtifact(feature_store_path='/config/workspace/artifact/12042022__21441670170499/artifact/feature_store/sensor.csv', train_file_path='/config/workspace/artifact/12042022__21441670170499/artifact/dataset/train.csv', test_file_path='/config/workspace/artifact/12042022__21441670170499/artifact/dataset/test.csv')

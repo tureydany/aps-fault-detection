@@ -1,0 +1,3 @@
+[ 2022-12-01 00:03:51,490 ] 10 root - INFO - Reading data from database: aps and collection: sensor
+[ 2022-12-01 00:03:55,115 ] 13 root - INFO - Dropping column: _id 
+[ 2022-12-01 00:03:55,332 ] 15 root - INFO - Row and columns in df: (36188, 171)

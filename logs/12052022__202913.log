@@ -1,0 +1,18 @@
+[ 2022-12-05 20:29:14,155 ] 22 root - INFO - Exporting collection data as pandas dataframe
+[ 2022-12-05 20:29:14,155 ] 11 root - INFO - Reading data from database: aps and collection: sensor
+[ 2022-12-05 20:29:17,562 ] 14 root - INFO - Dropping column: _id 
+[ 2022-12-05 20:29:17,751 ] 16 root - INFO - Row and columns in df: (36188, 171)
+[ 2022-12-05 20:29:18,311 ] 26 root - INFO - Create feature store folder if not available
+[ 2022-12-05 20:29:18,312 ] 29 root - INFO - Saving df to feature store dir
+[ 2022-12-05 20:29:20,678 ] 32 root - INFO - split data into train and test data
+[ 2022-12-05 20:29:21,222 ] 35 root - INFO - create dataset directory folder if not available
+[ 2022-12-05 20:29:23,356 ] 46 root - INFO - Data ingestion artifact: DataIngestionArtifact(feature_store_path='/config/workspace/artifact/12052022__20291670252354/artifact/feature_store/sensor.csv', train_file_path='/config/workspace/artifact/12052022__20291670252354/artifact/dataset/train.csv', test_file_path='/config/workspace/artifact/12052022__20291670252354/artifact/dataset/test.csv')
+[ 2022-12-05 20:29:23,722 ] 22 root - INFO - Exporting collection data as pandas dataframe
+[ 2022-12-05 20:29:23,723 ] 11 root - INFO - Reading data from database: aps and collection: sensor
+[ 2022-12-05 20:29:27,343 ] 14 root - INFO - Dropping column: _id 
+[ 2022-12-05 20:29:27,685 ] 16 root - INFO - Row and columns in df: (36188, 171)
+[ 2022-12-05 20:29:28,423 ] 26 root - INFO - Create feature store folder if not available
+[ 2022-12-05 20:29:28,424 ] 29 root - INFO - Saving df to feature store dir
+[ 2022-12-05 20:29:30,844 ] 32 root - INFO - split data into train and test data
+[ 2022-12-05 20:29:31,506 ] 35 root - INFO - create dataset directory folder if not available
+[ 2022-12-05 20:29:33,605 ] 46 root - INFO - Data ingestion artifact: DataIngestionArtifact(feature_store_path='/config/workspace/artifact/12052022__20291670252354/artifact/feature_store/sensor.csv', train_file_path='/config/workspace/artifact/12052022__20291670252354/artifact/dataset/train.csv', test_file_path='/config/workspace/artifact/12052022__20291670252354/artifact/dataset/test.csv')
